@@ -8,7 +8,7 @@ CREATE TABLE books
 		stock_quantity INT,
 		pages INT,
 		PRIMARY KEY(book_id)
-	); --here changes
+	);
 
 INSERT INTO books (title, author_fname, author_lname, released_year, stock_quantity, pages)
 VALUES
